@@ -6,6 +6,7 @@
 package com.mycompany.alicization;
 
 import com.mycompany.alicization.Ui.TextUi;
+import com.mycompany.alicization.sistemlogic.SistemPerkuliahan;
 import java.util.Scanner;
 
 /**
@@ -15,6 +16,8 @@ import java.util.Scanner;
 public class MainClass {
        
 public static void main(String[] args) {
+    SistemPerkuliahan sistemPerkuliahan = new SistemPerkuliahan();
+    
     TextUi ui = new TextUi();
     ui.run();
 }
